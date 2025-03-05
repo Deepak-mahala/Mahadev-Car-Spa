@@ -1,0 +1,62 @@
+.back-image{
+    background-image: url('..//assets/G-wegon.png');
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+.background-imgg{
+  background-image: url('../assets/Colored_version.png');
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .background-imgg {
+    height: 70vh; /* Mobile pe height kam */
+    width: 100vw;  /* Width ko full viewport rakha */
+    background-size: contain; /* Mobile pe pura image dikhne ke liye */
+    background-repeat: no-repeat;
+  }
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 89%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .back-colorr{
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .primaryRed{
+    color: #FF013E;
+  }
+  .primaryRed1{
+    background-color: #FF013E;
+  }
+
+  .logow{
+    width: 100%;
+    height: 8vh;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .fonttsize{
+    font-size: 10px;
+  }
+  .fonttsizemobile{
+    font-size: 14px;
+  }
+
+  .bg-red-color{
+    background-color:rgb(11, 11, 11);
+  }
