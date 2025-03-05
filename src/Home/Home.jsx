@@ -30,7 +30,7 @@ const Home = () => {
             <p className='text-white max-w-2xl font-medium leading-6 mt-5'>🌟 Because your car deserves to shine! 🌟</p>
           </div>
           <div className="mt-10 w-fit shadow-red-800 hover:shadow-lg rounded-2xl hover:-translate-1 transition">
-          <Button className="px-30 py-5 text-2xl font-bold rounded-lg primaryRed1 text-white cursor-pointer hover:" onClick={() => window.open("https://wa.me/8209913189", "_blank")}> Book Now </Button>         
+          <Button className="px-30 py-5 text-2xl font-bold rounded-lg primaryRed1 text-white cursor-pointer hover:" onClick={() => window.open("https://wa.me/+918209913189", "_blank")}> Book Now </Button>         
           </div>
          </div>
 

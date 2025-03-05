@@ -21,7 +21,7 @@ function NavbarMain() {
     </div>
 
     <div className="px-4 hover:-translate-1 transition group">
-    <Button className="px-5 py-1 font-bold rounded-lg primaryRed1 text-white cursor-pointer hover:" onClick={() => window.open("https://wa.me/8209913189", "_blank")}> <span className="flex gap-2"><IoCallOutline className="mt-1"/> Book Now </span></Button>         
+    <Button className="px-5 py-1 font-bold rounded-lg primaryRed1 text-white cursor-pointer hover:" onClick={() => window.open("https://wa.me/+918209913189", "_blank")}> <span className="flex gap-2"><IoCallOutline className="mt-1"/> Book Now </span></Button>         
 
     </div>
 
